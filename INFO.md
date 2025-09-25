@@ -1,7 +1,3 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Overview
 
 Agent Tool is a React + TypeScript chat application with AI integration capabilities. It provides a modern chat interface where users can interact with an AI assistant.
