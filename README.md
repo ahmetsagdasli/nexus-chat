@@ -16,10 +16,10 @@ A modern React + TypeScript chat application with AI integration capabilities.
 
 > **🚀 Quick Start**: `npm install && npm run dev`
 
-### Interactive Demo GIF
-*Coming soon - Demo showcasing theme switching, model selection, and AI conversations*
+### 🎬 Interactive Demo
+![Nexus Chat Demo](demo.gif)
 
-<!-- ![Demo GIF](assets/nexus-chat-demo.gif) -->
+*Live demo showcasing theme switching, model selection, and AI conversations*
 
 ### 🎯 Demo Features:
 - **Theme Switching**: Dark ↔ Light mode with smooth transitions

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo GIF Creator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .demo-container {
+            background: #2a2a2a;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 600px;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .feature {
+            background: #3a3a3a;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 5px;
+            flex: 1;
+            min-width: 120px;
+        }
+        .demo-text {
+            font-size: 1.2rem;
+            margin: 20px 0;
+            opacity: 0.9;
+        }
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .tech-badge {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+        .pulse {
+            animation: pulse 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="logo pulse">Nexus Chat</div>
+        <div class="demo-text">Modern AI Chat Application</div>
+
+        <div class="features">
+            <div class="feature">
+                <div>🌙☀️</div>
+                <div>Themes</div>
+            </div>
+            <div class="feature">
+                <div>🤖</div>
+                <div>AI Models</div>
+            </div>
+            <div class="feature">
+                <div>💬</div>
+                <div>Real-time</div>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">OpenAI</span>
+            <span class="tech-badge">Vite</span>
+        </div>
+
+        <div class="demo-text">
+            ✨ Theme Switching • 🔄 Model Selection<br>
+            📱 Responsive Design • 🎨 Modern UI
+        </div>
+    </div>
+
+    <script>
+        // Otomatik screenshot için animate et
+        setInterval(() => {
+            document.querySelectorAll('.feature').forEach((el, i) => {
+                setTimeout(() => {
+                    el.style.transform = 'scale(1.05)';
+                    setTimeout(() => {
+                        el.style.transform = 'scale(1)';
+                    }, 200);
+                }, i * 100);
+            });
+        }, 3000);
+    </script>
+</body>
+</html>
