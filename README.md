@@ -1,6 +1,39 @@
-# Agent Tool - AI Chat Application
+# Nexus Chat - AI Chat Application
+
+<div align="center">
+
+  ![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)
+  ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green?logo=openai)
+  ![Vite](https://img.shields.io/badge/Vite-5.x-purple?logo=vite)
+  ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+</div>
 
 A modern React + TypeScript chat application with AI integration capabilities.
+
+## 🎬 Live Demo
+
+> **🚀 Quick Start**: `npm install && npm run dev`
+
+### Interactive Demo GIF
+*Coming soon - Demo showcasing theme switching, model selection, and AI conversations*
+
+<!-- ![Demo GIF](assets/nexus-chat-demo.gif) -->
+
+### 🎯 Demo Features:
+- **Theme Switching**: Dark ↔ Light mode with smooth transitions
+- **Model Selection**: Switch between GPT-3.5, GPT-4, GPT-4 Turbo
+- **Real-time Chat**: Animated typing indicators and message flow
+- **Code Highlighting**: Syntax highlighting for code blocks
+- **Responsive Design**: Mobile and desktop layouts
+
+## 📷 Screenshots
+
+<div align="center">
+  <img src="assets/dark-theme.png" alt="Dark Theme" width="45%">
+  <img src="assets/light-theme.png" alt="Light Theme" width="45%">
+</div>
 
 ## Features
 
